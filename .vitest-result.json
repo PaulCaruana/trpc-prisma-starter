@@ -1,0 +1,40 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 1,
+  "numPassedTests": 0,
+  "numFailedTests": 1,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1671688689283,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " add and get post",
+          "status": "failed",
+          "title": "add and get post",
+          "duration": 85,
+          "failureMessages": [
+            "\nInvalid `prisma.post.create()` invocation:\n\n\nCan't reach database server at `localhost`:`5432`\n\nPlease make sure your database server is running at `localhost`:`5432`."
+          ],
+          "location": {
+            "line": 12,
+            "column": 16
+          }
+        }
+      ],
+      "startTime": 1671688690764,
+      "endTime": 1671688690849,
+      "status": "failed",
+      "message": "",
+      "name": "/Users/paulcaruana/WebstormProjects/trpc-prisma-starter/src/server/routers/post.test.ts"
+    }
+  ]
+}

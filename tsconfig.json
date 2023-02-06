@@ -26,7 +26,8 @@
     "**/*.ts",
     "**/*.tsx",
     "./*.js",
-    "./src/**/*.js"
+    "./src/**/*.js",
+    "node_modules/vitest/globals.d.ts"
   ],
   "exclude": ["node_modules"]
 }

@@ -1,3 +1,4 @@
+import { assert, expect, it } from 'vitest';
 /**
  * Integration test example for the `post` router
  */
@@ -5,7 +6,7 @@ import { createContextInner } from '../context';
 import { AppRouter, appRouter } from './_app';
 import { inferProcedureInput } from '@trpc/server';
 
-test('add and get post', async () => {
+it('add and get post', async () => {
   const ctx = await createContextInner({});
   const caller = appRouter.createCaller(ctx);
 
